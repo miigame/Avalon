@@ -1,0 +1,69 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="請選擇遊戲人數"
+        android:layout_gravity="center_horizontal" />
+    <Spinner
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnerPlayers"/>
+    <!--Good Guys-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvGoodGuy"
+        android:text="正義方"
+        android:layout_gravity="center_horizontal" />
+    <CheckBox
+        android:checked="true"
+        android:enabled="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="梅林"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="派西維爾"
+        android:id="@+id/cbPercival" />
+    <!--Bad Guys-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvBadGuy"
+        android:text="邪惡方"
+        android:layout_gravity="center_horizontal" />
+    <CheckBox
+        android:checked="true"
+        android:enabled="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="刺客"/>
+    <CheckBox
+        android:enabled="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="莫甘娜"
+        android:id="@+id/cbMorgana" />
+    <CheckBox
+        android:enabled="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="莫德雷德"
+        android:id="@+id/cbMordred" />
+    <CheckBox
+        android:enabled="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="奧伯倫"
+        android:id="@+id/cbOberon" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start!"
+        android:id="@+id/button" />
+</LinearLayout>
